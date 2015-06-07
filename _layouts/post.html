@@ -1,28 +1,68 @@
 ---
 layout: default
 ---
-<div class="post">
+<div>
 
-  <header class="post-header">
-    <h1 class="post-title">{{page.title}}</h1>
-    <p class="post-meta">{{page.date | date: "%b %-d, %Y"}}</p>
-  </header>
-  <ul>
-    <li>Length: {{page.length}}</li>
-    <li>Total Time: {{page.time_total}}</li>
-    <li>Time Moving: {{page.time_moving}}</li>
-    <li>Elevation Gain: {{page.elevation_gain}}</li>
-    <li>Elevation Min: {{page.elevation_min}}</li>
-    <li>Elevation Max: {{page.elevation_max}}</li>
-  </ul>
 
+  <h1><i class="fa fa-leaf"></i> {{page.title}} <small>{{page.date | date: "%b %-d, %Y"}}</small></h1>
   <article class="post-content">
+<div>
+<ul class="list-group">
+  <li class="list-group-item">
+    <span class="pull-right">{{page.length}}</span>
+    Length
+  </li>
+  <li class="list-group-item">
+    <span class="pull-right">{{page.time_total}}</span>
+    Total time
+  </li>
+  <li class="list-group-item">
+    <span class="pull-right">{{page.time_moving}}</span>
+    Moving time
+  </li>
+  <li class="list-group-item">
+    <span class="pull-right">{{page.elevation_gain}}</span>
+    Elevation Gain
+  </li>
+  <li class="list-group-item">
+    <span class="pull-right">{{page.elevation_min}}</span>
+    Elevation Min
+  </li>
+  <li class="list-group-item">
+    <span class="pull-right">{{page.elevation_max}}</span>
+    Elevation Max
+  </li>
+</ul>
+</div>
+
+
     {{content}}
-    <a href="{{site.url}}/track/{{page.path | replace:'_posts/',''| replace:'.markdown',''}}.kml">Download file</a>
-    <div id="map-canvas"></div>
-    <img src="{{site.url}}/img/{{page.path | replace:'_posts/',''| replace:'.markdown',''}}1.jpg" />
-    <img src="{{site.url}}/img/{{page.path | replace:'_posts/',''| replace:'.markdown',''}}2.jpg" />
-    <img src="{{site.url}}/img/{{page.path | replace:'_posts/',''| replace:'.markdown',''}}3.jpg" />
+
+<h2>Pictures</h2>
+
+<div class="row">
+  <div class="col-md-4">
+    <a href="#" class="thumbnail" data-toggle="modal" data-target="#modal1">
+    <img src="{{page.picture_1_thumb}}" />
+    </a>
+  </div>
+  <div class="col-md-4">
+    <a href="#" class="thumbnail" data-toggle="modal" data-target="#modal2">
+    <img src="{{page.picture_2_thumb}}" />
+    </a>
+  </div>
+  <div class="col-md-4">
+    <a href="#" class="thumbnail" data-toggle="modal" data-target="#modal3">
+    <img src="{{page.picture_3_thumb}}" />
+    </a>
+  </div>
+</div>
+
+<h2>Map</h2>
+        <div id="loader"></div>
+	<div id="map-canvas" hidden></div>
+
+<a href="{{site.url}}/track/{{page.path | replace:'_posts/',''| replace:'.markdown',''}}.kml" type="button" class="btn btn-default dl-kml"><i class="fa fa-file"></i> Download KML file</a>
   </article>
 
   <script>
@@ -30,12 +70,54 @@ layout: default
       var map = new google.maps.Map(document.getElementById('map-canvas'));
 
       var ctaLayer = new google.maps.KmlLayer({
-        //url: 'http://howcoolismyresear.ch/day3.kml'
         url: '{{site.url}}/track/{{page.path | replace:'_posts/',''| replace:'.markdown',''}}.kml'
       });
       ctaLayer.setMap(map);
+      $('#loader').hide();
+      $('#map-canvas').show();
     }
     google.maps.event.addDomListener(window, 'load', initialize);
   </script>
 
+</div>
+
+
+<div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">{{page.title}}</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="{{page.picture_1}}" />
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">{{page.title}}</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="{{page.picture_2}}" />
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">{{page.title}}</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="{{page.picture_3}}" />
+      </div>
+    </div>
+  </div>
 </div>

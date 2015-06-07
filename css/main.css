@@ -4,6 +4,20 @@
   padding: 0px
 }
 
+#loader {
+  height: 500px;
+  margin: 0px;
+  padding: 0px;
+  background-image: url(http://wanderweg.io/img/loader.gif);
+  background-repeat:no-repeat;
+  background-position: center center;
+  border: 5px solid #81B33A;
+}
+
 .navbar-inverse {
+  margin-top: 10px;
+}
+
+.dl-kml{
   margin-top: 10px;
 }
