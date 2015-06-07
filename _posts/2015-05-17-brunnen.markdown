@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Vitznau - Brunnen"
+date:   2015-05-17 12:40:24
+length:   15.32km
+time_total:   5h02'06''
+time_moving:   4h36'50''
+elevation_gain:   659m
+elevation_min:   481m
+elevation_max:   742m
+track:   742m
+---
+This is a small text explaining the hike blabla lhbalbalbal.
