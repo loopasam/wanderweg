@@ -2,18 +2,17 @@
 layout: default
 ---
 
-  <ul class="post-list">
+  <div>
     {% for post in paginator.posts %}
-      <li>
-        <h1>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      <div class="well">
+        <h1><i class="fa fa-leaf text-success"></i> 
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> <small>{{ post.date | date: "%b %-d, %Y" }}</small>
         </h1>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        
         {{ post.excerpt }}
-      </li>
+      </div>
     {% endfor %}
-  </ul>
-
+  </div>
 
 {% if paginator.total_pages > 1 %}
 <nav>
@@ -32,3 +31,11 @@ layout: default
 </ul>
 </nav>
 {% endif %}
+
+<script>
+$( document ).ready(function() {
+  $("body").addClass("home-page");
+  $("#footer > p").addClass("well");
+});
+
+</script>
