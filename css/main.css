@@ -23,7 +23,11 @@
 }
 
 body { 
-  background: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/tex2res4.png) repeat scroll 0% 0%;
+  background: url(/img/beech-forest-in-switzerland-1863-1.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
 }
 
 input.gsc-input,

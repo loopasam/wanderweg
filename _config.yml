@@ -10,5 +10,5 @@ url: "http://wanderweg.io" # the base hostname & protocol for your site
 markdown: kramdown
 
 #Pagination settings
-paginate: 2
+paginate: 3
 paginate_path: "/blog/page:num/"

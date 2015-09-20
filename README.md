@@ -13,7 +13,7 @@ Source code behind the blog wanderweg.io
 ## TODOs
 
 - pictures for posts
-- fill post germany hike
 - description of the website
 - about page
 - code layout cleaning
+- favicon impl
