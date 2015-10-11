@@ -9,7 +9,7 @@
   margin: 0px;
   padding: 0px;
   background-image: url(http://wanderweg.io/img/loader.gif);
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
   background-position: center center;
   border: 5px solid #81B33A;
 }
@@ -20,4 +20,31 @@
 
 .dl-kml{
   margin-top: 10px;
+}
+
+body { 
+  background: url(/img/beech-forest-in-switzerland-1863-1.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+}
+
+input.gsc-input,
+.gsc-input-box,
+.gsc-input-box-hover,
+.gsc-input-box-focus,
+.gsc-search-button {
+    box-sizing: content-box; 
+    line-height: normal;
+}
+
+.gsc-control-cse {
+  background-color: #F8F5F0 !important;
+  border-color: #F8F5F0 !important;
+}
+
+input.gsc-search-button {
+  background-color: #81B33A !important;
+  border-color: #81B33A !important;
 }
