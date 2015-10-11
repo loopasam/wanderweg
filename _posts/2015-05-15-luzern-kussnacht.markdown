@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Luzern - Kussnacht"
+title:  "Luzern - Kuessnacht"
 date:   2015-05-15 12:40:24
 length:   18.53 km (11.5 mi)
 time_total:   4h44'03
@@ -15,7 +15,6 @@ picture_2_thumb:   https://www.dropbox.com/s/pg65v1p26rdo0dd/2015-05-14%2016.03.
 picture_3:   https://www.dropbox.com/s/euxnh10a6tyz7c3/2015-05-14%2016.13.08.jpg?dl=1
 picture_3_thumb:   https://www.dropbox.com/s/vcr6j2ejpupniga/2015-05-14%2016.13.08-thumb.jpg?dl=1
 ---
-- Was under the rain
-- followed the lake
-- saw nice house
-- saw a deer
+Starting from the center of Luzern, the trail follows the northern edge of the Vierwaldstaettersee. After passing through the Verkehrshaus Lido and a few back gardens, it begins to gradually wind its way upwards and away from the lake, starting with a short climb to the impressive Schloss Meggenhorn. The town of Meggen itself is also rather impressive, being home to a surprising density of new and expensive-looking houses (though some are of questionable taste!). 
+
+Leaving manmade luxury behind, the trail then ascends in earnest, entering a stretch of forest as the same time as it crosses from the canton of Luzern to the canton of Schwyz. It skirts in a semicircle around a picturesque lake before starting a gentle descent into Kuessnacht, weaving through farmland and trees. A pleasant and not-too-difficult walk, although the weather can be quite variable even in mid-May, which we learned the hard way!
