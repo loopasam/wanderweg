@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Kussnacht - Vitznau"
+title:  "Kuessnacht - Vitznau"
 date:   2015-05-16 12:40:24
 length:   17.53 km (10.9 mi)
 time_total:   5h59'34
