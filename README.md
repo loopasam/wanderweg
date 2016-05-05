@@ -7,13 +7,10 @@ Source code behind the blog wanderweg.io
 
 - File convertion: Extract `KMZ` as `KML`, give the same file name as blog post name, put in track folder. The KMZ file can be previewed from GoogleDoc.
 
-- Download the 3 pics of interest and add them in the dropbox folder wanderweg
-- Thumbails are generated manually by adding `-thumb` and should have the lowest value set to 250px.
+- Add 2 pics of interest to the `img` folder in the website.
+- Images should have the lowest value set to 250px (either height or length).
 
 ## TODOs
 
 - pictures for posts
-- description of the website
-- about page
-- code layout cleaning
 - favicon impl

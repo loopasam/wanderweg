@@ -2,7 +2,7 @@
 title: wanderweg.io
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  description of the website.
+  A weblog about hikes and rambles in Switzerland.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://wanderweg.io" # the base hostname & protocol for your site
 

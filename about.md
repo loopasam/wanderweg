@@ -4,8 +4,10 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+We're a couple living in Switzerland and enjoying the nature. This weblog lists some of the hikes we've done, in the country and around.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+Each post contains the data about the outing, pictures and last but not least, the map of the route in `KML` format, a good starting point for anyone willing to do the hike.
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+Happy reading!
+
+Sarah & Sam

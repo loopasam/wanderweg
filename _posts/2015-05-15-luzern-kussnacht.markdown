@@ -8,12 +8,8 @@ time_moving:   4h29'33
 elevation_gain:   522 m (1713 ft)
 elevation_min:   470 m (1543 ft)
 elevation_max:   687 m (2253 ft)
-picture_1:   https://www.dropbox.com/s/imzfhw936zt9n65/2015-05-14%2016.02.53.jpg?dl=1
-picture_1_thumb:   https://www.dropbox.com/s/5xnle6pbzncpk1o/2015-05-14%2016.02.53-thumb.jpg?dl=1
-picture_2:   https://www.dropbox.com/s/n16phthiowtha86/2015-05-14%2016.03.05.jpg?dl=1
-picture_2_thumb:   https://www.dropbox.com/s/pg65v1p26rdo0dd/2015-05-14%2016.03.05-thumb.jpg?dl=1
-picture_3:   https://www.dropbox.com/s/euxnh10a6tyz7c3/2015-05-14%2016.13.08.jpg?dl=1
-picture_3_thumb:   https://www.dropbox.com/s/vcr6j2ejpupniga/2015-05-14%2016.13.08-thumb.jpg?dl=1
+picture_1:   2015-05-15-luzern-kussnacht-1.jpg
+picture_2:   2015-05-15-luzern-kussnacht-2.jpg
 ---
 Starting from the center of Luzern, the trail follows the northern edge of the Vierwaldstaettersee. After passing through the Verkehrshaus Lido and a few back gardens, it begins to gradually wind its way upwards and away from the lake, starting with a short climb to the impressive Schloss Meggenhorn. The town of Meggen itself is also rather impressive, being home to a surprising density of new and expensive-looking houses (though some are of questionable taste!). 
 

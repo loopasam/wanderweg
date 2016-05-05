@@ -41,20 +41,11 @@ layout: default
 <h2>Pictures</h2>
 
 <div class="row">
-  <div class="col-md-4">
-    <a href="#" class="thumbnail" data-toggle="modal" data-target="#modal1">
-    <img src="{{page.picture_1_thumb}}" />
-    </a>
+  <div class="col-md-6">
+    <img src="{{site.url}}/img/{{page.picture_1}}" class="img-thumbnail"/>
   </div>
-  <div class="col-md-4">
-    <a href="#" class="thumbnail" data-toggle="modal" data-target="#modal2">
-    <img src="{{page.picture_2_thumb}}" />
-    </a>
-  </div>
-  <div class="col-md-4">
-    <a href="#" class="thumbnail" data-toggle="modal" data-target="#modal3">
-    <img src="{{page.picture_3_thumb}}" />
-    </a>
+  <div class="col-md-6">
+    <img src="{{site.url}}/img/{{page.picture_2}}" class="img-thumbnail"/>
   </div>
 </div>
 
@@ -82,42 +73,4 @@ layout: default
 </div>
 
 
-<div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">{{page.title}}</h4>
-      </div>
-      <div class="modal-body">
-        <img class="img-responsive" src="{{page.picture_1}}" />
-      </div>
-    </div>
-  </div>
-</div>
-<div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">{{page.title}}</h4>
-      </div>
-      <div class="modal-body">
-        <img class="img-responsive" src="{{page.picture_2}}" />
-      </div>
-    </div>
-  </div>
-</div>
-<div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">{{page.title}}</h4>
-      </div>
-      <div class="modal-body">
-        <img class="img-responsive" src="{{page.picture_3}}" />
-      </div>
-    </div>
-  </div>
-</div>
+
