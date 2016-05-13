@@ -8,12 +8,8 @@ time_moving:   5h44'05
 elevation_gain:   751 m (2464 ft)
 elevation_min:   470 m (1542 ft)
 elevation_max:   821 m (2693 ft)
-picture_1:   https://www.dropbox.com/s/imzfhw936zt9n65/2015-05-14%2016.02.53.jpg?dl=1
-picture_1_thumb:   https://www.dropbox.com/s/5xnle6pbzncpk1o/2015-05-14%2016.02.53-thumb.jpg?dl=1
-picture_2:   https://www.dropbox.com/s/n16phthiowtha86/2015-05-14%2016.03.05.jpg?dl=1
-picture_2_thumb:   https://www.dropbox.com/s/pg65v1p26rdo0dd/2015-05-14%2016.03.05-thumb.jpg?dl=1
-picture_3:   https://www.dropbox.com/s/euxnh10a6tyz7c3/2015-05-14%2016.13.08.jpg?dl=1
-picture_3_thumb:   https://www.dropbox.com/s/vcr6j2ejpupniga/2015-05-14%2016.13.08-thumb.jpg?dl=1
+picture_1:   2015-05-16-kussnacht-vitznau-1.jpg
+picture_2:   2015-05-16-kussnacht-vitznau-2.jpg
 ---
 This section of the Vierwaldstaetterweg starts gently, leaving Kuessnacht to the east and following the lakeshore south through numerous cherry orchards and the small town of Greppen. A highlight is the self-service organic farm shop at the top of hillside, where visitors can sample homemade apple cider while enjoying a view of the lake and the resident alpacas! After following an exercise circuit through the forest, the trail begins to ascend and passes over Weggis, where beautiful views of lake and mountains can be found.
 
