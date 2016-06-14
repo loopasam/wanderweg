@@ -11,5 +11,4 @@ elevation_max:   489 m (1603 ft)
 picture_1:   2015-09-06-efringen-kirchen-riehen-1.JPG
 picture_2:   2015-09-06-efringen-kirchen-riehen-2.JPG
 ---
-- Following german border
-- Bought tomatoes
+This hike starts in Germany at Efringen-Kirchen, in the vineyards. After following the official wine path for a little while, we arrived in the town of Otlingen. Here one can buy fruits and vegetables from mailboxes in the street, in exchange of a few coins. The city is decorated with paintings, displayed in the inhabitant's gardens and walls. The hike finishes going down in Riehen in Switzerland, where the tram goes directly back to Basel.
